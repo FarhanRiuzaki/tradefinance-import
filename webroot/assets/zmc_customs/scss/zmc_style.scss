@@ -1,0 +1,91 @@
+// KONTOL IEU SCRIPT AING//
+.m-grid-item--slider-owl{
+  height: 100%;;
+  background: #fafafa;
+  .cover-owl-login{
+    height: 100%;
+  }
+  .owl-stage-outer{
+    height: 100%;
+  }
+  .owl-stage{
+    height: 100%;
+  }
+  .owl-item{
+    height: 100%;
+    &::before{
+      content: " ";
+    }
+  }
+  .owl-item{
+    height: 100%;
+  }
+  .item{
+    height: 100%;
+  }
+  .image-item{
+    height: 100%;
+    &:before{
+      content:  "";
+    }
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 500px;
+  }
+}
+.m-brand .m-brand__logo .m-brand__logo-wrapper img{
+      max-width: 100%;
+      max-height: 100%;
+      width:65px;
+      padding:10px;
+}
+
+.form-control[readonly], .form-control{
+  border-color: #0A0A0A;
+  color : #0A0A0A;
+}
+
+.m-login.m-login--1 .m-login__wrapper .m-login__form .m-form__group .form-control{
+  border-bottom: 1px solid #0A0A0A;
+  color : #0A0A0A;
+}
+
+.m-login.m-login--1 .m-login__wrapper .m-login__form .m-login__form-sub{
+  margin-top: 0rem;
+}
+.table-bordered{
+  border:1px solid darken(#f4f5f8,15%);
+}
+.table.table-striped thead th,.table thead th{
+  border-bottom: 1px solid darken(#f4f5f8,15%);
+  border-right: 1px solid darken(#f4f5f8,15%);
+  &:last-child{
+    border-right: none;
+  }
+}
+.table tbody td{
+  border-bottom: 1px solid darken(#f4f5f8,15%);
+  border-right: 1px solid darken(#f4f5f8,15%);
+  &:last-child{
+    border-right: none;
+  }
+}
+
+.table-striped tbody tr:nth-of-type(odd),.table-striped tbody tr:hover{
+  background-color: #fafafa;
+}
+
+.no-padding{
+  padding:0px !important;
+}
+
+
+.select2-container--default .select2-results__option.select2-results__option--highlighted {
+  background: #564FC1;
+  color: #fff;
+}
+
+.select2-container--default .select2-results__option[aria-selected=true] {
+  background: #564FC1;
+  color: #fff;
+}
